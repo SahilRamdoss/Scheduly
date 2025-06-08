@@ -1,12 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+import Sidebar from './SideBar.jsx'
 
 function App() {
   return (
     <>
-      <div className="text-(--color-bloodRed)">
-        Hello
-      </div>
+      <Sidebar/>
     </>
   )
 }

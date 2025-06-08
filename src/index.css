@@ -1,5 +1,5 @@
 @import "tailwindcss";
 
 @theme {
-    --color-bloodRed: #FFFF00;
+    --color-bloodRed: red;
 }
