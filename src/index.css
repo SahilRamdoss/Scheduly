@@ -1,5 +1,17 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 @theme {
-    --color-bloodRed: red;
+    --color-text: #2E2E2E;
+    --color-darkBackground: #080808;
+}
+
+html, body{
+    width:100%;
+    height:100%;
+}
+
+:root{
+    width:100%;
+    height:100%;
 }
