@@ -1,9 +1,15 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@plugin "tailwind-scrollbar-hide";
 
 @theme {
-    --color-text: #2E2E2E;
     --color-darkBackground: #080808;
+    --color-cardPrimary: #000000;
+    --color-primaryAccent: #3B82F6;
+    --color-secondaryAccent: #1E40AF;
+    --color-mainText: #F3F4F6;
+    --color-softText: #D1D5DB;
+    --color-highlight:#22D3EE;
 }
 
 html, body{
