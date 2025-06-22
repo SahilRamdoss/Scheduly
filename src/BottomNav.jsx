@@ -13,7 +13,6 @@ export default function BottomNav(props) {
             {props.screenWidth >= 768 ?
                 null :
                 <div
-                    id="Footer"
                     className="shrink-1 w-full flex justify-around items-center px-4 py-1 bg-(--color-darkBackground)"
                 >
                     <a

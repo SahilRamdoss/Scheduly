@@ -14,7 +14,7 @@ export default function Navbar(props) {
 
     return (
         <>
-            <nav id="Navbar" className={props.screenWidth < breakpoint ? "shrink-1 px-2 flex justify-center items-center py-3 w-full bg-(--color-darkBackground) lg:hidden" : "shrink-1 flex justify-start items-center p-3 w-full bg-(--color-darkBackground) lg:hidden"}>
+            <nav className={props.screenWidth < breakpoint ? "shrink-1 px-2 flex justify-center items-center py-3 w-full bg-(--color-darkBackground) lg:hidden" : "shrink-1 flex justify-start items-center p-3 w-full bg-(--color-darkBackground) lg:hidden"}>
                 {props.screenWidth >= breakpoint ?
                     <label htmlFor="my-drawer-2" className="drawer-button lg:hidden">
                         <Menu color="grey" size={props.screenWidth > 600 ? "50" : "40"} />
